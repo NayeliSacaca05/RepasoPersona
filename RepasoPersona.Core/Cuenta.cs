@@ -7,7 +7,7 @@ namespace RepasoPersona.Core
 {
     public class Cuenta
     {
-        public double Saldo { get; private set; }
+        public double Saldo { get; protected set; }
         public int CBU { get; private set; }
         public Cuenta() => Saldo = 0;
 
